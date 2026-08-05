@@ -1,16 +1,15 @@
 
-public class placement 
+public class PlacementEligible {
 
-    Eligible {
     public static void main(String[] args) {
         int marks = 72;
         int attendance = 80;
-        int projectCompleted = true;
+        boolean projectCompleted = true;
 
         boolean marksEligible = marks >= 60;
         boolean attendenceEligible = attendance >= 75;
-        boolean acadeicEligible = marksEligible && attendenceEligible;
-        boolean placementEligible = academicEligible && projectCopleted;
+        boolean academicEligible = marksEligible && attendenceEligible;
+        boolean placementEligible = academicEligible && projectCompleted;
         System.out.println("Placement Eligible: " + placementEligible);
     }
 }
