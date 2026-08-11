@@ -8,5 +8,14 @@ class EmpApplication {
         System.out.println(e1.id);
         System.out.println(e1.name);
         e1.work();
+        Employee e2;
+        e2 = e1;
+        e2.id = 111;
+        e2.name = "Raja";
+        System.out.println(e1.id);
+        System.out.println(e1.name);
+        System.out.println(e2.id);
+        System.out.println(e2.name);
+
     }
 }
