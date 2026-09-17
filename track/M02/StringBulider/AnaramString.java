@@ -26,3 +26,24 @@ public class AnaramString {
         }
     }
 }
+
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String word = scanner.nextLine();
+
+        // Create the reversed word using StringBuilder
+        String reversed = new StringBuilder(word).reverse().toString();
+
+        // Compare the original word and reversed word ignoring letter case
+        boolean isPalindrome = word.equalsIgnoreCase(reversed);
+
+        // Print output as specified in the sample format
+        System.out.println("Reversed: " + reversed);
+        System.out.println("Palindrome: " + isPalindrome);
+    }
+}
