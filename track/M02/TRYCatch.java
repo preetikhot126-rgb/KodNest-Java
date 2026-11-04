@@ -14,8 +14,8 @@ class TRYCatch {
             int res = a / b;
             System.out.println("Result: " + res);
         } catch (Exception e) {
-            System.out.println("Exception handled");
-            System.out.println(e.getMessage());
+            //System.out.println("Exception handled");
+            //System.out.println(e.getMessage());
             System.out.println("Divide by ZERO");
         }
         System.out.println("Cnnection terminated..");
